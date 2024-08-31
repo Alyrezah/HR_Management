@@ -1,0 +1,183 @@
+Section 01 : Intro
+
+-
+
+Section 05 : Create project solution.
+
+Section 06 : Domain layer.
+
+Section 07 : Base entity class.
+
+Section 08 : Application layer and generic repository.
+
+Section 09 : Create repositories for entities.
+
+Section 10 : Auto Mapper - Install AutoMapper and create profile for it.
+
+Section 11 : Create Dtos and map in mapping(AutoMapping) profile.
+
+Section 12 : Create Application layer Configure service and add Dto for entities.
+
+Section 13 : CQRS Pattern and MediatR.
+
+Section 14 : Impelimented CQRS with MediatR.
+
+Section 15 : Create handlers and requests for LeaveType (GetLeaveTypeList and GetLeaveTypeDetails).
+
+Section 16 : Create handlers and requests for LeaveAllocation (GetLeaveAllocationDetails and GetLeaveAllocationList).
+
+Section 17 : Create handlers and requests for LeaveAllocation (GetLeaveRequestDetails and GetLeaveRequestList).
+
+Section 18 : Add CreateLeaveRequestDto and CreateLeaveAllocationDto.
+
+Section 19 : CreateLaveTypeCommand - Request and Handler.
+
+Section 20 : CreateLeaveRequestCommand and CreateLeaveAllocationCommand - Request and Handler.
+
+Section 21 : Add UpdateDtos for LeaveAllocation and LeaveRequest.
+
+Section 22 : UpdateCommand(Request) and add UpdateCommandHandler(RequestHandler) for our entities.
+
+Section 23 : Complate UpdateCommandHandlers for entities.
+
+Section 24 : Impelimented ChangeApprovalStatus for LeaveRequest entity.
+
+Section 25 : Delete Request and Command for Entities.
+
+Section 26 : CreateLeaveType validator with FluentValidation.
+
+Section 27 : Complated CreateLeaveTypr Validator with FluentValidation.
+
+Section 28 : Create Validator for LeaveRequest entity
+
+Section 29 : Add ILeaveTypeDto and ILeaveTypeDtoValidator.
+
+Section 30 : Add LeaveRequest validator and base validator and base dto.
+
+Section 31 : Add LeaveAllocation validator and base validator and base dto.
+
+Section 32 : Complate FluentValidation in handlers.
+
+Section 33 : Create costum exception classes for validations
+
+Section 34 : Compladed costum exception and use it in CQRS pattern.
+
+Section 35 : Create custom response and use them in CQRS.
+
+Section 36 : Complated profile mapping for dtos and entities.
+
+Section 37 : Infrastructure layer.
+
+Section 38 : Db Context and dbset entities
+
+Section 39 : Db Context Configur.
+
+Section 40 : GenericRepository impelimented.
+
+Section 41 : Entity Repositories impelimented.
+
+Section 42 : Create and config persistence registeration in CQRS.
+
+Section 43 : Third party in infrastructure (IEmailSender).
+
+Section 44 : Email sender impelimented.
+
+Section 45 : Web api project.
+
+Section 46 : Setup CORS in program.cs .
+
+Section 47 : Migration and create database .
+
+Section 48 : First step for LeaveType API Controller.
+
+Section 50 : Complete LeaveType API Controller.
+
+Section 50 : Complete LeaveAllocation API Controller.
+
+Section 51 : Complete LeaveRequest API Controller.
+
+Section 52 : Seed Data.
+
+Section 53 : Swagger.
+
+Section 54 : Add meditor in service registeration.
+
+Section 55 : Test.
+
+Section 56 : Handlers debuging.
+
+Section 57 : Install unit test project.
+
+Section 58 : Create Mock Class for LeaveType.
+
+Section 59 : Unit Testing for queries handlers.
+
+Section 60 : Unit Testing for commands handlers.
+
+Section 61 : Create MVC project (UI).
+
+Section 62 : Create api classes using NSwagStudio.
+
+Section 63 : Config and setup httpClient in MVC project.
+
+Section 64 : Config and setup httpClient in main project.
+
+Section 65 : Local stroge service impelimented.
+
+Section 66 : BaseHttpService
+
+Section 67 : Use BaseCommandResponse in CQRS.
+
+Section 68 : Unit test again.
+
+Section 69 : Mapping Dtos to ViewModels for leave type.
+
+Section 70, 71 : Client Service in CQRS for leaveType .
+
+Section 72, 73 : First controller in mvc for LeaveType.
+
+Section 74 : Fix Bug in Delete and Update LeaveType.
+
+Section 75 : JWT -> Json Web Token for identity and authentication in API.
+
+Section 76 : Create identity models.
+
+Section 77 : Create identity project and IdentityDbContext.
+
+Section 78 : Create and config role in IdentityDbContext.
+
+Section 79 : Create and config userRole and UserApplication in IdentityDbContext.
+
+Section 80 : Installing packages required for Identity.
+
+Section 81 : Impelimented user register.
+
+Section 82 : GenerateToken method impelimented.
+
+Section 83 : Authentication method impelimented.
+
+Section 84 : Creating IdentityRegistrationServices exclusively in Identity.
+
+Section 85 : Insert settings in Configuration projects. -> appsetings.json in api project.
+
+Section 86 : Building user management controller in Api.
+
+Section 87 : Swagger configuration to use Token in Api.
+
+Section 88 : Creating databases and tables related to Identity in CQRS.
+
+Section 89 : Test registration and login in Web Api and receive Token.
+
+Section 90 : Updating Http Client services and calling Api in the client and building IAuthenticateService
+
+Section 91 : Impelimented IAuthenticateService
+
+Section 92 : Creation of action and view login
+
+Section 93 : Logout implementation in Identity and CQRS
+
+Section 94 : Register implementation in Identity and CQRS
+
+Section 95 : 
+
+Section 96 : 
